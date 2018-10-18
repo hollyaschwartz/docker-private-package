@@ -1,0 +1,22 @@
+{
+    "name": "hollyaschwartz/docker-private-package",
+    "description": "An example private composer package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Holly Schwartz",
+            "email": "hollys@etailz.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bitpress\\DockerPrivatePackage\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
